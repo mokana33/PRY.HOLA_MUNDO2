@@ -8,6 +8,7 @@ h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
     padding: 10px 30px 10px 30px;
+    color: black;
 }
 
 h2{
@@ -16,6 +17,39 @@ h2{
     color: white;
 }
 
-nav ul li{
+nav{
+    background-color: rgb(177, 177, 177);
+    min-height: 80px;
+    height: 10vh;
+    width: 100%;
+    max-width: 2560px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+nav ul{
+    display: flex;
     justify-content: end;
+    align-items: center;
+}
+
+nav ul li{
+    margin-right: 20px;
+}
+
+header{
+    /*height: 90vh;*/
+    background-image: url(img/pam.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
